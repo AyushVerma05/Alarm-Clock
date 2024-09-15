@@ -15,7 +15,7 @@ function clock(){
     cSec.textContent = Number(clk.getSeconds())   
 }
 
-// set interval
+
 setInterval(clock,500)
 
 // adding event to the button:
