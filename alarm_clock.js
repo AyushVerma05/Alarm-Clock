@@ -42,7 +42,7 @@ button.addEventListener("click",e => {
     }
     
 
-    // adding time interval:
+    
     setTimeout(sound,_time * 1000)
 })
 
