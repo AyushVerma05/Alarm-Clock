@@ -18,7 +18,7 @@ function clock(){
 
 setInterval(clock,500)
 
-// adding event to the button:
+
 button.addEventListener("click",e => {
     let clock_seconds = Number(cHour.textContent)* 3600 + Number(cMin.textContent)* 60 + Number(cSec.textContent)
     let timer_seconds = Number(tHour.value) * 3600 + Number(tMin.value)*60
