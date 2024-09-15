@@ -8,7 +8,6 @@ let button = document.querySelector('#button')
 let button2 = document.querySelector("#button2")
 var clk = new Date()
 
-// clock function:
 function clock(){
     clk = new Date()
     cHour.textContent = Number(clk.getHours())
