@@ -25,7 +25,7 @@ button.addEventListener("click",e => {
     console.log(timer_seconds - clock_seconds)
     let _time = timer_seconds - clock_seconds
 
-    // adding audio to the alarm
+    
     function sound(){
         let _sound = new Audio("ringtone.mp3")
         _sound.play()
