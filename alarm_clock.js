@@ -1,5 +1,4 @@
 
-// getting elements with dom:
 let cHour = document.querySelector('#cHour')
 let cMin = document.querySelector('#cMin')
 let cSec = document.querySelector('#cSec')
